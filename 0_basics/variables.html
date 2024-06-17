@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Variables</title>
+    </head>
+    <body>
+        <input id="textInput" type="text">
+        <button id="textChanger">Change the text below</button>
+
+        <p id="someText">This is some text that will be changed</p>
+
+        <script type="text/javascript">
+            // var x = 10;
+            // alert(x);
+            document.getElementById("textChanger").onclick = function(){
+                var inputText = "";
+                inputText = document.getElementById("textInput").value;
+                document.getElementById("someText").innerHTML = inputText;
+            }
+
+        </script>
+    </body>
+</html>

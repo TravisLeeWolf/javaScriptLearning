@@ -1,0 +1,57 @@
+body {
+    background-color: #070F2B;
+    color: white;
+}
+
+.main-description, .converter {
+    background-color: #1B1A55;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.main-description {
+    margin: 5px 10px;
+    text-align: left;
+}
+
+.converter {
+    margin: auto;
+    width: min-content;
+    text-align: center;
+}
+
+input {
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: orange;
+    width: 200px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#output {
+    margin-top: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+a:link {
+    background-color: #6441a5;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: #6441a5;
+}

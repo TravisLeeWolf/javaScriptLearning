@@ -1,2 +1,2 @@
 # javaScriptLearning
-A place to put extra learning and code that I made with JavaScript
+Courses and extra code in my learning process for javaScript.
